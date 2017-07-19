@@ -4,8 +4,8 @@ body {
 
 @media (min-width: 320px) {
     .flex-item {
-        width: 25vw;
-        height: 18vh;
+        width: 22vw;
+        height: 16vh;
         margin: 5px;
     }
 }
