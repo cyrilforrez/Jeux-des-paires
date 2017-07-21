@@ -44,7 +44,7 @@ function comparer(index) {
             image[index].src = images[index];
 
             if (source.src != image[index].src) { //----------Compare the 2 cards back
-                compteur++;    //--------------------Add 1 point for each pair not found
+                compteur++; //--------------------Add 1 point for each pair not found
                 clickLock = 1; //-----------Blocks the click if 2 cards are returned
                 setTimeout(function() {
                     clickLock = 0;
@@ -54,7 +54,7 @@ function comparer(index) {
                 }, 1500);
             } else {
                 source = "";
-                confirmcompt++;    //-----------------------Add 1 point for each pair find
+                confirmcompt++; //-----------------------Add 1 point for each pair find
             }
 
 
